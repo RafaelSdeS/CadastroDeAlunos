@@ -1,0 +1,45 @@
+<html>
+    <head>
+        <link rel="stylesheet" type='text/css' href="style.css">
+    </head>
+    <body>
+  
+        <!-- Formulário -->
+    
+    <div id="id2">
+        <form>
+            Nome:  <input id="name"><br><br>
+            Nota:  <input id="nota"><br><br>
+            Telefone:  <input id="tele"><br><br>
+            Nascimento:  <input type="date" id="data"><br><br>
+
+        <!-- Botão de cadastro -->
+        
+            <input style="text-align: center; border-radius: 8px;" type="button" value="Cadastrar" onclick="cadastrar()">
+            <input style="text-align: center; border-radius: 8px;" type="button" value="Ordenar pela nota mais alta" onclick="notamaisalta()">
+            <input style="text-align: center; border-radius: 8px;" type="button" value="Ordenar pela nota mais baixa" onclick="notamaisbaixa()">
+            <input style="text-align: center; border-radius: 8px;" type="button" value="Ordenar por nome (A - Z)" onclick="nomeaz()">
+            <input style="text-align: center; border-radius: 8px;" type="button" value="Ordenar por nome (Z - A)" onclick="nomeza()">
+
+        </form>
+    </div>
+        <br><br>
+
+        <!-- Tabela de dados -->
+
+    <div id="id1">
+        <table id="table">
+        <tr><th colspan="4">Dados</th>
+            <th rowspan="2">Excluir</th>
+        </tr>
+        <tr>
+            <th>Nome</th>
+            <th>Nota</th>
+            <th>Telefone</th>
+            <th>Nascimento</th>
+        </tr>
+        </table>
+    </div>    
+    </body>
+</html>
+<script type="text/javascript" src="main.js"></script>

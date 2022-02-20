@@ -1,0 +1,37 @@
+div#id1 table, div#id1 td{
+    margin: 10px;
+    font-family: Verdana;
+    border-collapse: collapse;
+    min-width: 110px;
+    width:auto;
+    border: 1px solid black;
+    text-align: center;
+    font-size: 15px;
+}
+div#id1 th{
+    font-family: Verdana;
+    background-color:#009879;
+    color:#ffffff;
+    border-collapse: collapse;
+    min-width: 110px;
+    width:auto;
+    border: 1px solid black;
+    text-align: center;
+    font-size: 15px;
+}
+div#id2 form {
+    font-family: Verdana;
+    border-radius: 5px;
+    font-size: 15px;
+    min-width: 10%;
+    text-align:left;
+}
+div#id2 input {
+    font-family: Verdana;
+    padding: 2px;
+    border: 1px solid black;
+    border-radius: 5px;
+    font-size: 15px;
+    min-width: 10%;
+    text-align:left;
+}
